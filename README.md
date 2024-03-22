@@ -57,7 +57,8 @@ g++ main.cpp -o leanshell
 
 - Support for redirection (`>`, `<`) and piping (`|`) operators.
 - Handling of multiple spaces, quotes, and other special characters in input.
-- Tab completion for commands and file paths.
+- Tab completion for commands and file paths- make use of the command history available.
+- Display current directory path.
 - Persistent command history across sessions.
 - Improved error handling and error messages.
 - Support for environment variables and shell scripting.
